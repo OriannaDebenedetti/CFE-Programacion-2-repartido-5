@@ -15,7 +15,7 @@ public class Ejercicio5 {
     public void setEdad(int edad) { this.edad = edad; }
 
     public static void main(String[] args) {
-        Ejercicio5 persona = new Ejercicio5("Orianna", 22);
+        Ejercicio5 persona = new Ejercicio5("Orianna", 22<);
         System.out.println("Nombre: " + persona.getNombre());
         System.out.println("Edad: " + persona.getEdad());
     }
